@@ -42,3 +42,24 @@ Fishing Friday is a cozy 2D pixel art fishing adventure built around the ritual 
 
 ## Mood & Goals
 Fishing Friday aims to be peaceful, hypnotic, and deeply collectible—a cozy ritual players revisit weekly to unwind, complete their catalog, uncover secrets, and chase rare Friday-only discoveries.
+
+---
+
+## Play the text prototype
+
+A cozy text-first prototype is included so you can practice the weekly ritual right in the terminal.
+
+### Requirements
+- Python 3.10+
+
+### Run interactively
+```
+python -m fishing_friday
+```
+Use the prompts to travel, cast, swap rods, and view your caught fish.
+
+### Auto-play showcase
+```
+python -m fishing_friday --auto-play 3 --day Friday --seed 7
+```
+Runs three quick casts with Friday bonuses and a deterministic seed so you can see the loop without manual input.
